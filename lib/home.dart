@@ -32,7 +32,6 @@ class _HomePageState extends State<HomePage> {
     var apiurl = "https://skmasum.tech/flutterapi/notes.php";
     var apidata = await http.get(apiurl);
     livedata = convert.jsonDecode(apidata.body)["notes"];
-
     //print(livedata.toString());
     print("called data");
     //msgtime();
