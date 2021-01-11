@@ -1,6 +1,6 @@
 # fluttermysqllive
 
-A new Flutter project.
+A new Flutter project to get data from mysql database with realtime.
 
 ## Getting Started
 
