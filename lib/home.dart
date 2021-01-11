@@ -24,8 +24,6 @@ class _HomePageState extends State<HomePage> {
     const fiveSeconds = const Duration(seconds: 5);
     // _fetchData() is your function to fetch data
     Timer.periodic(fiveSeconds, (Timer t) => getlivedata());
-
-    //return msgtime();
   }
 
   getlivedata() async {
